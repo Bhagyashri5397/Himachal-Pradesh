@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    /* background-image: url(./image/4himachal1.jpg); */
+    background: url(./image/1527085364_1526288304_shutterstock_527473177.jpg.jpg.webp);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+    
+
+}
+.navbar img{
+    width: 100px;
+    height: 100px;
+    
+
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    
+
+
+}
+.navbar ul li{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.hero-section{
+    width: 100%;
+    height: 600px;
+    background: url(./image/20101230-img_0912.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: white;
+}
+.hero-section h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    top: 75%;
+    left: 60%;
+
+
+}
+.container{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:white;
+}
+.container-heading{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-heading h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+.container-three{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+}
+.box1{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url(./5-Best-Things-To-Do-In-Himachal-Pradesh-768x512.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.box1:hover{
+    transition: all ease-out;
+    transform: scale(119%);
+}
+.box2{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url(./image/kasol_theblondpost.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box2:hover{
+    transition: all ease-out;
+    transform: scale(120%);
+}
+.box3{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url(./image/th.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box3:hover{
+    transition: all ease-out;
+    transform: scale(120%);
+}
+
+.container-six{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    color: white;
+    
+
+}
+.box4{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url(./image/Dham-Himachal-Pradesh-585x480.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box4:hover{
+    transition: all ease-out;
+    transform: scale(120%);
+}
+.box5{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url(./image/Himachal-Pradesh-Adventures.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box5:hover{
+    transition: all ease-out;
+    transform: scale(120%);
+}
+.box6{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url(./image/A1341-The-Heritage-Architecture-of-Himachal-Pradesh-Bhimakali-Temple-Image-1-1024x792.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box6:hover{
+    transition: all ease-out;
+    transform: scale(120%);
+}
+.container-three h3{
+    font-size: 30px;
+}
+.container-three h6{
+    font-size: 20px;
+}
+.container-six h3{
+    font-size: 30px;
+
+}
+.container-six h6{
+    font-size: 20px;
+
+}
+.container1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1-left{
+    width: 60%;
+    height: 350px;
+    background-color:rgb(6, 6, 27);
+}
+.left-text{
+    width: 60%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    color: white;
+    flex-direction: column; 
+}
+.left-text h2{
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+.left-text p{
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 10px;
+
+}
+.contaniner1-right{
+    width: 40%;
+    height: 350px;
+    
+}
+.contaniner1-right img{
+    width: 100%;
+    height: 350px;
+}
+.container2{
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    
+}
+.container2-heading{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2-heading h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+.two-part{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.container2-left{
+    width: 50%;
+    height: 450px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.image{
+    width: 100%;
+    height: 400px;
+    
+}
+.shimla{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shimla-text{
+    padding-left: 20px;
+    
+}
+.shimla-text h4{
+    font-size: 25px;
+}
+.shimla-text h6{
+    font-size: 15px;
+    color: gray;
+}
+.shimla img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    
+}
+.manali{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.manali img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+.manali-text{
+    padding-left: 20px;
+
+}
+.manali-text h4{
+    font-size: 25px;
+
+}
+.manali-text h6{
+    font-size: 15px;
+    color: gray;
+
+}
+
+.container2-right{
+    width: 50%;
+    height: 450px;
+    /* background-color: azure; */
+}
+.container2-text{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+.container2-text p{
+    font-size: 18px;
+    font-weight: 200;   
+}
+.container3{
+    width: 100%;
+    height: 100px;
+    background: url(./image/1527085364_1526288304_shutterstock_527473177.jpg.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.container3 ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    list-style: none;
+
+}
+.container3 ul li{
+    font-size: 28px;
+    color: white;
+
+}
+.container3 ul li i{
+    font-size: 40px;
+}
+.container4{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(231, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container4 ul{
+    width: 100%;
+    height: 450px;
+    padding-inline: 50px;
+    list-style: none;
+}
+.container4 ul h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container4 ul h6{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500px;
+}
+.container4 ul li{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    
+}
+.container5{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.image1{
+    width: 20%;
+    height: 400px;
+}
+.image1 img{
+    width: 100%;
+    height: 250px;
+}
+.para{
+    width: 40%;
+    height: 400px;
+
+}
+.para p{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 16px;
+}
+.image2{
+    width: 20%;
+    height: 400px;
+}
+.image2 img{
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        width: 100%;
+        height: 80px;
+    }
+    .navbar img{
+        width: 50px;
+        height: 50px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .hero-section{
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .hero-section h2{
+        font-size: 18px;
+        position: absolute;
+        left: 30%;
+
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        
+    }
+    .container-heading{
+        width: 100%;
+        height: 100px;
+    }
+    .container-heading h2{
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .container-three{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .box1{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .box1 h3{
+        font-size: 20px;
+    }
+    .box1 h6{
+        font-size: 15px;
+    }
+    .box2{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .box2 h3{
+        font-size: 20px;
+    }
+    .box2 h6{
+        font-size: 15px;
+    }
+    .box3{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .box3 h3{
+        font-size: 20px;
+    }
+    .box3 h6{
+        font-size: 15px;
+    }
+    .container-six{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .box4{
+        width: 100%;
+    }
+    .box4 h3{
+        font-size: 20px;
+    }
+    .box4 h6{
+        font-size: 15px;
+    }
+    .box5{
+        width: 100%;
+        margin-top: 10px;
+        
+    }
+    .box5 h3{
+        font-size: 20px;
+    }
+    .box5 h6{
+        font-size: 15px;
+    }
+    .box6{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .box6 h3{
+        font-size: 20px;
+    }
+    .box6 h6{
+        font-size: 15px;
+    }
+    .container1{
+        width: 100%;
+        height: 400px;
+        flex-direction: column-reverse;
+    }
+    .container1-left{
+        width: 100%;
+        height: 350px;
+    }
+    .left-text{
+        width: 100%;
+        height: 300px;
+    }
+    .left-text h2{
+        font-size: 20px;
+    }
+    .left-text p{
+        font-size: 12px;
+    }
+    .contaniner1-right{
+        display: none;
+    }
+    .container2{
+        width: 100%;
+        height: 500px;
+    }
+    .container2-heading{
+        width: 100%;
+    }
+    .container2-heading h2{
+        font-size: 20px;
+    }
+
+    .shimla img{
+        width: 100px;
+        height: 100px;
+    }
+    .manali img{
+        width: 100px;
+        height: 100px;
+        
+
+    }
+    .shimla-text h4{
+        font-size: 18px;
+    }
+    .shimla-text h6{
+        font-size: 14px;
+    }
+    .manali-text h4{
+        font-size: 18px;
+         
+    }
+    .manali-text h6{
+        font-size: 14px;
+    }
+    .container2-text p{
+        font-size: 14px;
+    }
+    .container3{
+        width: 100%;
+        height: 80px;
+    }
+    .container3 ul li{
+        font-size: 16px;
+        font-weight: 800;
+    
+    }
+    .container3 ul li i{
+        font-size: 25px;
+    }
+    .container4{
+        width: 100%;
+        height: 350px;
+        flex-direction: column;
+    }
+    .container4 ul{
+
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .container4 ul h3{
+        font-size: 14px;
+    }
+    .container4 ul li{
+        display: none;
+    }
+    .container5{
+        width: 100%;
+        height: 400px;
+    }
+    .image1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .image2 img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .para p{
+        font-size: 12px;
+    }
+    
+}
